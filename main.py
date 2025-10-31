@@ -22,10 +22,10 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
-print("You´re at a cross road. Where do you want to go?")
+print("You're at a cross road. Where do you want to go?")
 choice1 = input("    Type \"left\" or \"right\"\n")
 if choice1.lower() == "left":
-    print("You´ve come to a lake. there is an island in the middle of the lake")
+    print("You've come to a lake. there is an island in the middle of the lake")
     choice2 = input("    Type \"wait\" to wait for a boat. Type \"swin\" to swin across\n")
     if choice2.lower() == "wait":
         choice3 = input("You arrived at the island unharmed. there is a house with 3 doors.\n One red, one yellow and one blue. Which colour do you choose?\n")
